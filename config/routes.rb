@@ -1,13 +1,11 @@
 Bniche::Application.routes.draw do
-<<<<<<< HEAD
+
   get "users/new"
-get "static_pages/home"
-  match '/help', to: 'static_pages#help', via: 'get'
-=======
+
   get "static_pages/home"
   match '/help', to: 'static_pages#help', via: 'get'
   match '/start', to: 'static_pages#start', via: 'get'
->>>>>>> modeling-users
+
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

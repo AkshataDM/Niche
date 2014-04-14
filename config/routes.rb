@@ -1,6 +1,8 @@
 Bniche::Application.routes.draw do
   get "static_pages/home"
-  get "static_pages/help"
+  match '/help', to: 'static_pages#help', via: 'get'
+  match '/start', to: 'static_pages#start', via: 'get'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

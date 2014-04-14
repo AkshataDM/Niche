@@ -6,6 +6,7 @@ html {
 
 body {
   padding-top: 60px;
+  background-color:#FF9966;
 }
 
 section {
@@ -26,6 +27,8 @@ textarea {
 
 h1, h4, h5, h6 {
   line-height: 1;
+  font-family: "Tahoma", Geneva, sans-serif;
+  
 }
 
 h1 {
@@ -33,6 +36,7 @@ h1 {
   letter-spacing: -2px;
   margin-bottom: 30px;
   text-align: center;
+  color: #FFFF99;
 }
 
 h2 {
@@ -41,12 +45,15 @@ h2 {
   margin-bottom: 30px;
   text-align: center;
   font-weight: normal;
-  color: #999;
+  color: #FF6600;
 }
 
 p {
   font-size: 1.1em;
   line-height: 1.7em;
+    font-family: "Tahoma", Geneva, sans-serif;
+  font-style:italic;
+  font-size:14px;
 }
 
 
@@ -81,5 +88,6 @@ footer ul li {
 h2, h3 
 {
  color: #444;
+ font-family: "Tahoma", Geneva, sans-serif;
 }
 

@@ -1,10 +1,11 @@
 Bniche::Application.routes.draw do
-
+  resources :users
   get "users/new"
 
   get "static_pages/home"
   match '/help', to: 'static_pages#help', via: 'get'
   match '/start', to: 'static_pages#start', via: 'get'
+   match '/signup',  to: 'users#new',            via: 'get'
   
 
 
